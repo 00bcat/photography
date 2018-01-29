@@ -1,5 +1,5 @@
 :: Execute this after adding new photos in ./images/
-:: npm, gulp, ImageMagick
+:: npm, gulp, GraphicsMagick
 :: Should install above beforehand
 
 set /p msg="Enter git commit message: "
