@@ -32,5 +32,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gm": "^1.23.1",
+    "gulp-gm": "0.0.8",
+    "gulp-util": "^3.0.8",
+    "imageMagick": "^0.1.2",
+    "imagemagick": "^0.1.3"
   }
 }
