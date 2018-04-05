@@ -3,6 +3,9 @@
 :: Should install above beforehand
 
 set /p msg="Enter git commit message: "
+if "%msg%" == "" (
+    set msg=Add some photos
+)
 :: https://github.com/gulpjs/gulp/issues/1086
 call gulp
 git fetch
