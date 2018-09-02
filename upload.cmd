@@ -4,7 +4,7 @@
 
 set /p msg="Enter git commit message: "
 if "%msg%" == "" (
-    set msg=Add some photos
+    set msg=Edit some photos
 )
 :: https://github.com/gulpjs/gulp/issues/1086
 call gulp
